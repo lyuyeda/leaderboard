@@ -1,4 +1,5 @@
 PlayersList = new Mongo.Collection('players');
+UserAccounts = new Mongo.Collection('users');
 if (Meteor.isClient) {
   Template.leaderboard.helpers({
     'player': function () {
